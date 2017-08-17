@@ -25,17 +25,17 @@ var enemyMoves;
 var battleText;
 
 function preload() {
-    img = loadImage("https://nickasc4.github.io/pokemon/garchomp.png");
-    img2 = loadImage("https://nickasc4.github.io/pokemon/garchompback.png");
-    img3 = loadImage("https://nickasc4.github.io/pokemon/dragonite.png");
-    img4 = loadImage("https://nickasc4.github.io/pokemon/background.jpg");
-    darkraigif = loadGif("https://nickasc4.github.io/pokemon/darkrai.gif");
-    dragonitegif = loadGif("https://nickasc4.github.io/pokemon/dragonite.gif");
-    lucariogif = loadGif("https://nickasc4.github.io/pokemon/lucario.gif");
-    garchompgif = loadGif("https://nickasc4.github.io/pokemon/garchompback.gif");
-    blazikengif = loadGif("https://nickasc4.github.io/pokemon/blazikenback.gif");
-    venusaurgif = loadGif("https://nickasc4.github.io/pokemon/venusaurback.gif");
-    charizardgif = loadGif("https://nickasc4.github.io/pokemon/charizard.gif");
+    img = loadImage("garchomp.png");
+    img2 = loadImage("garchompback.png");
+    img3 = loadImage("dragonite.png");
+    img4 = loadImage("background.jpg");
+    darkraigif = loadGif("darkrai.gif");
+    dragonitegif = loadGif("dragonite.gif");
+    lucariogif = loadGif("lucario.gif");
+    garchompgif = loadGif("garchompback.gif");
+    blazikengif = loadGif("blazikenback.gif");
+    venusaurgif = loadGif("venusaurback.gif");
+    charizardgif = loadGif("charizard.gif");
 }
 
 function setup() {
